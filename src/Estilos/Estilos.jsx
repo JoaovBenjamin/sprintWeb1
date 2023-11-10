@@ -265,3 +265,24 @@ export const InformacoesCep = styled.div`
     justify-content: end;
 
 `
+
+//HEADER
+
+//Section para a imagem de fundo
+export const SectionImagem3 = styled.section`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`
+
+//Backgroun image armazenado no container div
+export const ContainerImg3 = styled.div`
+    background-image: url("https://i.pinimg.com/originals/ef/75/cd/ef75cd14cd307a2fc0eaf80fdac75b80.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 120px;
+`
